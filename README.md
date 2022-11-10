@@ -1,4 +1,254 @@
-# OPPO Ace2 玩机技巧
+# OPPO Ace2 玩机指南
+
+手机信息：
+
+## Device configuration for OPPO Ace2
+
+The OPPO Ace2 (codenamed *"OP4AD9"*) is a high-end smartphone from OPPO.
+
+It was announced & released in April 2020.
+
+### Device specifications
+
+| Basic                   | Spec Sheet                                                   |
+| ----------------------- | ------------------------------------------------------------ |
+| SoC                     | Qualcomm Snapdragon 865 SM8250                               |
+| CPU                     | Octa-Core (1 x 2.84 GHz Kryo 585 & 3 x 2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585) |
+| GPU                     | Adreno 650                                                   |
+| Memory                  | 8/12 GB RAM                                                  |
+| Shipped Android Version | 10.0 with ColorOS 7.1                                        |
+| Storage                 | 128/256GB                                                    |
+| Battery                 | Non-removable Li-Po 4000 mAh battery                         |
+| Display                 | 2400 x 1080 pixels, 6.5 inches, 90Hz, Super AMOLED (~402 ppi density) |
+| Rear Camera             | 48MP (wide) / 8MP (ultra-wide) / 2MP (depth) / 2MP (depth)   |
+| Front Camera            | 16MP (wide)                                                  |
+| Model                   | PDHM00                                                       |
+| OLED Model              | oppo19161samsung_amb655uv01_1080_2400_cmd                    |
+| Touch Panel             | sec-s6sy771                                                  |
+
+### Device picture
+
+![Ace2](https://dsfs.oppo.com/product/2020/ace2/images/parameter/phone-img1-768-41a18d9f8d94842abf4de4c74502ab87.png "Ace2")
+
+
+
+## 官方的更新、降级与备份工具
+
+* GhostTool
+* OplusUpgradeTool
+
+GhostTool已经下架了，适用于ColorOS11降级到Coloros7.1以及备份之类
+
+OplusUpgradeTool好像还在，适用于ColorOS12.1降级到ColorOS11以及备份之类
+
+OplusUpgradeTool下载链接：https://img-oppo-cn.oss-cn-hangzhou.aliyuncs.com/uploads/util/2022/02/23/1645585834165.zip
+
+
+
+## 禁用列表
+
+> 适用于realmeui和coloros，在不同安卓版本基本通用
+
+手机管家
+
+```bash
+adb shell pm uninstall --user 0 com.coloros.phonemanager
+```
+
+软件更新
+
+```bash
+adb shell pm uninstall --user 0 com.oppo.ota
+```
+
+系统升级服务
+
+```bash
+adb shell pm uninstall --user 0 com.coloros.sau
+```
+
+更新服务
+
+```bash
+adb shell pm uninstall --user 0 com.nearme.romupdate
+```
+
+> 提示：如果想优雅地关闭系统更新，其实你在官方提供的GhostTool或者OplusUpgradeTool关掉即可，就不用禁apk那么烦
+
+视频
+
+```bash
+adb shell pm uninstall --user 0 com.heytap.yoli
+```
+
+音乐
+
+```bash
+adb shell pm uninstall --user 0 com.heytap.music
+```
+
+小游戏
+
+```bash
+adb shell pm uninstall --user 0 com.nearme.play
+```
+
+Athena
+
+```bash
+adb shell pm uninstall --user 0 com.coloros.athena
+```
+
+软件商店
+
+```bash
+adb shell pm uninstall --user 0 com.heytap.market
+```
+
+主题商店
+
+```bash
+adb shell pm uninstall --user 0 com.heytap.themestore
+```
+
+浏览器
+
+```bash
+adb shell pm uninstall --user 0 com.heytap.browser
+```
+
+### 如何恢复？
+
+```bash
+ pm install-existing --user 0 包名
+```
+
+### 需要注意的问题：
+
+主题、软件商店、手机管家在禁用前不能打开或者对手机进行联网，否则就禁用失败
+
+
+
+## 内核
+
+官方开源的内核，目前只开了两个版本
+
+* 安卓10，ColorOS7.1
+* 安卓12.0，ColorOS12.1
+
+至于安卓11，官方没有开源，但是早期版本（ColorOS11, C11)可以用findx2的内核源码。由于ColorOS11的内核源码SELinux部分被魔改了，因此无法切换permissive。当然办法也有，那就是用rebase kernel。
+
+
+
+## 线刷
+
+线刷方式主要有两种：
+
+* fastboot线刷
+
+* 9008端口线刷
+
+  
+
+### 售后线刷固件(.ofp)
+
+> 下面的fastboot线刷和9008线刷都是在售后泄漏的线刷固件解压镜像镜像刷写的！售后线刷固件一般都是被打包成 .ofp 的加密压缩格式！
+
+根据我使用的经验，网上流传的几乎是ColorOS7.1和ColorOS11的售后线刷固件，然而ColorOS7.1的售后线刷固件<font color=red>刷了会炸</font>！我只保存有ColorOS11 C17的售后线刷固件，它可以在非ColorOS7.1的系统的背景下（意思是刷机前的系统不是7.1！）正常刷入。
+
+顺便分享线刷固件等工具（百度云盘）：
+
+链接：https://pan.baidu.com/s/1ood2skiB0IJevjIi9u_eGg 
+提取码：ace2 
+
+
+
+### fastboot 线刷
+
+以下是我的线刷脚本内容：
+
+```bash
+fastboot flash boot boot.img
+
+fastboot flash recovery recovery.img
+
+fastboot flash dtbo dtbo.img
+
+fastboot flash opporeserve2 opporeserve2.img
+
+fastboot flash modem NON-HLOS.bin
+
+fastboot flash vbmeta vbmeta.img --disable-verity --disable-verification
+
+fastboot flash vbmeta_system vbmeta_system.img
+
+fastboot flash vbmeta_vendor vbmeta_vendor.img
+
+fastboot flash super super.0.59d26645.img
+
+fastboot flash super super.1.f862e808.img
+
+fastboot flash super super.2.6836a383.img
+
+```
+
+其中，NON-HLOS.bin 是基带，如果是用着ColorOS11的话可以不用刷，如果刷机后IMEI丢失，请刷入它吧！
+
+### 9008线刷
+
+> 也许很多人说，9008线刷要去售后搞呀，毕竟官方的9008线刷工具是绑定设备的。其实现在也不用这么做了，也可以自己进入9008通过EMT刷机工具来线刷！
+
+EMT刷机工具线刷方法是最近才有的。之所以能通过EMT来免售后9008刷机，是因为865的9008引导最近才被破解！
+
+[EMT 刷机工具官网](http://www.emegsm.com/cn/Index.asp)
+
+也许玩家们一开始听说oddo能免售后通过9008线刷挺高兴的，结果看了一下这个工具发现是收费软件：<font color=red>价格：468 RMB</font>
+
+有了工具别高兴得太早，你还缺少包呢，用官方售后的**.ofp**包好像是不行的，这要看有谁用EMT刷机工具把系统镜像给备份下来的，反正当然有人备份有镜像。不过9008刷机有个问题，就是指纹需要重新校验！
+
+
+
+## TWRP相关
+
+> 这东西是真的恶臭，因为data解密方案没人愿意公开，甚至搞twrp收费的恶臭事
+
+### TWRP通用那些事
+
+目前我发现，Ace2的TWRP和findx2系列是通用的，唯一不同是机型校验，Ace2是OP4AD9，findx2是OP4A7A。Ace2的data加密方案，和findx2，一加8，Realme x50p是一致的。也许realme x50p的也能用（一加8是A/B分区不适合此设备）！
+
+### TWRP-ColorOS7.1
+
+其实我是不想搬运它的，因为ColorOS7.1的系统架构和后面的差异很大（在ColorOS7.1的背景下，刷入ColorOS11/12.1或者ColorOS11/12.1刷ColorOS7.1会炸机），不利于搞机。我用的是wzsx150的。
+
+### TWRP-ColorOS11
+
+我是用残心的，因为残心作者对twrp进行了加密，刷入需要用它给的工具。为了方便，我就直接用 `dd` 命令把它的twrp备份出来，这样就无需解密了。
+
+### TWRP-ColorOS12.1
+
+因为目前已经没有人给ace2适配twrp了，发现findx2的和ace2通用，所以直接用findx2的。
+
+
+
+## root与vbmeta校验去除
+
+root的话，自己用面具给boot.img打补丁就行，然后在fastboot 模式下把修改过的boot.img刷入就行
+
+刷入命令如下：
+
+```bash
+fastboot flash boot boot.img
+```
+
+
+
+vbmeta校验去除，是必须的，提取vbmeta.img通过如下命令关闭校验：
+
+```bash
+fastboot flash vbmeta vbmeta.img --disable-verity --disable-verification
+```
+
+
 
 ## 官方OTA更新收录
 
@@ -29,6 +279,16 @@
 | A24  | 撤包                                                         |
 | A25  | https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20201104195555/PDHM00_11_OTA_0250_all_iyi66E9mjnZC.ozip |
 | A26  | 需要提取                                                     |
+
+
+
+### ozip的解包
+
+> 看到官方ColorOS7.1的ota包，ozip打包是不是看得很烦？
+
+如何解包？
+
+Github有解包工具：[bkerler/oppo_ozip_decrypt: Oppo Firmware .ozip decrypter (github.com)](https://github.com/bkerler/oppo_ozip_decrypt)
 
 
 
@@ -95,4 +355,41 @@ md5：10b98c93980ac1e7374d37e4aa6c2708
 
 ### ColorOS13.0 (安卓13.0)
 
-** 由于处于内测阶段，不方便提供**
+#### H.04(内测)
+
+下载链接（2选1，包是一样区别在于带宽速度）：
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ef1f60545eaab26e6538a8b59fc07182/component-ota/22/10/18/a0e1a93a0e8f49e6b43f2a65b09456ce.zip
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-ef1f60545eaab26e6538a8b59fc07182/component-ota/22/10/18/a0e1a93a0e8f49e6b43f2a65b09456ce.zip
+
+
+
+#### H.06(内测)
+
+下载链接
+
+增量包（没啥用，仅用于参考改动了啥，685.3MB）
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f0930fdfc4216b8f9cf0ee4f5b167b6c/component-ota/22/11/02/43eeab5c3eb04afdb2560b23b1f30f1f.zip
+
+全量包（下载这个吧，5.647GB）
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f0930fdfc4216b8f9cf0ee4f5b167b6c/component-ota/22/11/02/09862692a32f4e909b528a111598a93d.zip
+
+更新了啥，我只知道更新了xbl的bootloader解锁提示，就是开机那个橙色的提示，其实也不要慌，看看谷歌的文档是咱解释的
+
+[启动流程  | Android 开源项目  | Android Open Source Project (google.cn)](https://source.android.google.cn/docs/security/features/verifiedboot/boot-flow)
+
+[启动流程  | Android 开源项目  | Android Open Source Project](https://source.android.com/docs/security/features/verifiedboot/boot-flow)
+
+
+#### H.07(内测)
+
+下载链接（2选1，包是一样区别在于带宽速度，5.663GB）
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-586039cb72d6523950031868e2391ec8/component-ota/22/11/10/10e51f96e1d545ba97b212155c8cca64.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-586039cb72d6523950031868e2391ec8/component-ota/22/11/10/10e51f96e1d545ba97b212155c8cca64.zip
+
+md5：392efd0412e4ff481ee72a5c359ae762
