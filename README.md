@@ -228,6 +228,10 @@ EMT刷机工具线刷方法是最近才有的。之所以能通过EMT来免售�
 
 因为目前已经没有人给ace2适配twrp了，发现findx2的和ace2通用，所以直接用findx2的。
 
+### TWRP-ColorOS13.0
+
+继续使用findx2的
+
 
 
 ## root与vbmeta校验去除
