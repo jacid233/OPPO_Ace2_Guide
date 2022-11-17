@@ -355,6 +355,8 @@ md5：10b98c93980ac1e7374d37e4aa6c2708
 
 ### ColorOS13.0 (安卓13.0)
 
+以下的内测包，由 @感谢逝去的天空 提供
+
 #### H.04(内测)
 
 下载链接（2选1，包是一样区别在于带宽速度）：
@@ -393,3 +395,14 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-586039cb72d6523950031868e23
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-586039cb72d6523950031868e2391ec8/component-ota/22/11/10/10e51f96e1d545ba97b212155c8cca64.zip
 
 md5：392efd0412e4ff481ee72a5c359ae762
+
+
+#### H.09(内测)
+
+下载链接（2选1，包是一样区别在于带宽速度，5.663GB）
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-6833b341e01e4d8ab260388b9da8542a/component-ota/22/11/17/0e80accab4f2408c9c4f35408b4a01a9.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6833b341e01e4d8ab260388b9da8542a/component-ota/22/11/17/0e80accab4f2408c9c4f35408b4a01a9.zip
+
+md5：6e1fd591ef62f4e4da9de30c8d61e5c0
