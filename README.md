@@ -258,6 +258,12 @@ fastboot flash vbmeta vbmeta.img --disable-verity --disable-verification
 
 
 
+问：如何通过ota缓存提取包？
+
+答：在/data/data/com.oplus.ota/databases/ota.db 里面有直链、md5、ota包存放位置等信息。
+
+
+
 问：全吗？
 
 答：不全，但是这些暂时没有撤包，由于我入坑太晚，ColorOS11和ColorOS12.1的很多都没有办法从ota更新收录
