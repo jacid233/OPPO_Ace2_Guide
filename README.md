@@ -412,3 +412,5 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-6833b341e01e4d8ab260388b9da
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6833b341e01e4d8ab260388b9da8542a/component-ota/22/11/17/0e80accab4f2408c9c4f35408b4a01a9.zip
 
 md5：6e1fd591ef62f4e4da9de30c8d61e5c0
+
+好像有人反馈，刷了后亮度条变黑
