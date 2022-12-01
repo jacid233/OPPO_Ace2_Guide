@@ -418,3 +418,25 @@ https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6833b341e01e4d8ab260
 md5：6e1fd591ef62f4e4da9de30c8d61e5c0
 
 好像有人反馈，刷了后亮度条变黑
+
+
+#### H.10(内测)
+
+下载链接（2选1，包是一样区别在于带宽速度，5.663GB）
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-311538015ebe4c973b63953f9510a9a7/component-ota/22/11/23/1c929d76447b46819829a4e9135a5171.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-311538015ebe4c973b63953f9510a9a7/component-ota/22/11/23/1c929d76447b46819829a4e9135a5171.zip
+
+md5：0c1410eeb9c953ea462d9df4aa7c946e
+
+
+#### H.13(内测)
+
+下载链接（2选1，包是一样区别在于带宽速度）
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-1bd562ceb933d8099df3ba518623c4a9/component-ota/22/12/01/fa29bdf59c664e929f50e8387bb242ab.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1bd562ceb933d8099df3ba518623c4a9/component-ota/22/12/01/fa29bdf59c664e929f50e8387bb242ab.zip
+
+md5：4b039bafd9780e4ace16a888be174d71
