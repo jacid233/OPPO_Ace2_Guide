@@ -362,6 +362,20 @@ md5：10b98c93980ac1e7374d37e4aa6c2708
 | 8    | my_region     | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-642e031be517bbbd371dd27ffc734c1c/component-ota/22/07/27/2618983ff48b4fada2b695871b2cd9dc.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-642e031be517bbbd371dd27ffc734c1c/component-ota/22/07/27/2618983ff48b4fada2b695871b2cd9dc.zip | 22fb477e1026fdd136bd4b751147fd6a |
 
 
+#### F.12
+
+| id   | 名称          | 链接(active-url)                                             | 链接                                                         | md5                              |
+| ---- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
+| 1    | my_manifest   | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/c6b2cb964155493abf7ae9cbd43dd373.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/c6b2cb964155493abf7ae9cbd43dd373.zip | dbcbe58b17f63b52ae30de2f9c53f7c9 |
+| 2    | my_product    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/ef18c6b7dfb84e76b28e45ba0f87e387.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/ef18c6b7dfb84e76b28e45ba0f87e387.zip | 5e3e7250d7c68e82c9b50016facd301e |
+| 3    | my_bigball    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/4a0e24a4cad847ffa8bac325aaa98f4a.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/4a0e24a4cad847ffa8bac325aaa98f4a.zip | 4ecd49284f86c452f8aa18c88dc51791 |
+| 4    | my_stock      | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/7a1df4b068914284b5c024e47b16aeab.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/7a1df4b068914284b5c024e47b16aeab.zip | b49a3c6282c1d97e1929621b248ae8d0 |
+| 5    | my_heytap     | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/54b6bb1b2b004e809cf29e252800c765.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/54b6bb1b2b004e809cf29e252800c765.zip | 098f5654280dfb725c6a9ccfba4f7a9d |
+| 6    | my_carrier    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/8c4c12e40c14401d876ef92eaf92da82.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/8c4c12e40c14401d876ef92eaf92da82.zip | a9032013179972db581fd5b5f285bb91 |
+| 7    | system_vendor | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/dad1b7e25d024a4b989aee35deaaaba4.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/dad1b7e25d024a4b989aee35deaaaba4.zip | 3c535ed70f966e172fe049e7c286c23b |
+| 8    | my_region     | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/4251d464473541e1865b0cc76f6ccb50.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-a617869abb832d769e26ff49306cd43c/component-ota/22/11/21/4251d464473541e1865b0cc76f6ccb50.zip | 5512291889db175eb06d86ad013c084c |
+
+
 
 ### ColorOS13.0 (安卓13.0)
 
