@@ -453,3 +453,18 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-1bd562ceb933d8099df3ba51862
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1bd562ceb933d8099df3ba518623c4a9/component-ota/22/12/01/fa29bdf59c664e929f50e8387bb242ab.zip
 
 md5：4b039bafd9780e4ace16a888be174d71
+
+
+#### H.12(公测)
+
+下载链接
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f39201c43e2fde2b3e82dbca905f1a4b/component-ota/22/11/23/8723a5d30adb4dbd8d2f29a91c3c74ff.zip
+
+
+
+#### H.16(内测)
+
+下载链接
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-492a6dcf2c7b214ecdff381421b7bb65/component-ota/22/12/14/b3dc5320726b4b7ebd9e7a1d3b2a6078.zip
