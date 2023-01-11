@@ -462,6 +462,12 @@ md5：4b039bafd9780e4ace16a888be174d71
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f39201c43e2fde2b3e82dbca905f1a4b/component-ota/22/11/23/8723a5d30adb4dbd8d2f29a91c3c74ff.zip
 
 
+#### H.15(公测)
+
+下载链接
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1c46ce2000b89698568e00531bfae0af/component-ota/22/12/09/7f2d33dbdea14cc1b459e4f2a57dabc8.zip 
+
 
 #### H.16(内测)
 
