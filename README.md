@@ -378,8 +378,6 @@ md5：10b98c93980ac1e7374d37e4aa6c2708
 
 ### ColorOS13.0 (安卓13.0)
 
-以下的内测包，由 @感谢逝去的天空 提供
-
 #### H.04(内测)
 
 下载链接（2选1，包是一样区别在于带宽速度）：
@@ -485,3 +483,8 @@ https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b13b6a5b3015cbe3025d
 官方更新描述
 
 https://gauss-compotacostauto-cn.allawnfs.com/remove-b13b6a5b3015cbe3025d12d6cfceb190/component-ota/23/01/09/1699570c24d9425885a9a0bcb474b419.html 
+
+## Credits
+
+* 感谢逝去的天空：提供大部分内测包
+* 花橋：分享H.15；H.19
