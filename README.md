@@ -135,6 +135,7 @@ adb shell pm uninstall --user 0 com.heytap.browser
 
 * 安卓10，ColorOS7.1
 * 安卓12.0，ColorOS12.1
+* 安卓13，ColorOS13 直接使用 ColorOS12.1的内核即可
 
 至于安卓11，官方没有开源，但是早期版本（ColorOS11, C11)可以用findx2的内核源码。由于ColorOS11的内核源码SELinux部分被魔改了，因此无法切换permissive。当然办法也有，那就是用rebase kernel。
 
