@@ -237,6 +237,8 @@ EMT刷机工具线刷方法是最近才有的。之所以能通过EMT来免售�
 
 ## root与vbmeta校验去除
 
+注意：从H.13开始，不再提供修补的magiskroot！
+
 root的话，自己用面具给boot.img打补丁就行，然后在fastboot 模式下把修改过的boot.img刷入就行
 
 刷入命令如下：
