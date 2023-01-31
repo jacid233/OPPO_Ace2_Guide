@@ -487,7 +487,17 @@ https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b13b6a5b3015cbe3025d
 
 https://gauss-compotacostauto-cn.allawnfs.com/remove-b13b6a5b3015cbe3025d12d6cfceb190/component-ota/23/01/09/1699570c24d9425885a9a0bcb474b419.html 
 
+
+#### H.20(正式版)
+
+下载链接(2选1，区别在速度)
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-1b42e6d0683bceedfb90e1a45ac13c09/component-ota/23/01/17/d516ee2e3b8a49479485bc1e3e88d0d0.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1b42e6d0683bceedfb90e1a45ac13c09/component-ota/23/01/17/d516ee2e3b8a49479485bc1e3e88d0d0.zip
+
 ## Credits
 
 * 感谢逝去的天空：提供大部分内测包
 * 花橋：分享H.15；H.19
+* 由QQ用户 2919277661 提供 H.20 的 ota.db 并提取直链
