@@ -336,6 +336,21 @@ md5：10b98c93980ac1e7374d37e4aa6c2708
 
 ### ColorOS12.1 (安卓12.0)
 
+#### F.08
+
+| id   | 名称          | 链接(active-url)                                             | 链接                                                         | md5                              |
+| ---- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
+| 1    | my_manifest   | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/94a5b952bb9a41df8bdbfd47f13a6793.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/94a5b952bb9a41df8bdbfd47f13a6793.zip | 63f4073b5429d6905552bff1e1288920 |
+| 2    | my_product    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/ed9cdd997b7a4a19a3918952afeef737.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/ed9cdd997b7a4a19a3918952afeef737.zip | b9ba510d9db5c9dc68de4f01164013f2 |
+| 3    | my_bigball    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/c8bef2f6125f4b4c941eaf2795c26252.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/c8bef2f6125f4b4c941eaf2795c26252.zip | 5daecd834c3e47eaa216804c89cce808 |
+| 4    | my_stock      | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/341f7821f4c04be0ad5673394a6b846f.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/341f7821f4c04be0ad5673394a6b846f.zip | 4e3a87e9aafde78b1afcc832bf312dee |
+| 5    | my_heytap     | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/6f5ecead5dfd439f897f5a7bb83e0249.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/6f5ecead5dfd439f897f5a7bb83e0249.zip | 9290ee1dcd734c8a30468d7b5bea8580 |
+| 6    | my_carrier    | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/7cdf51c740d5493ca4803b9e76b4aa2a.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/7cdf51c740d5493ca4803b9e76b4aa2a.zip | 43cccb04c322470bb353238866d6c84b |
+| 7    | system_vendor | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/36bbd2907e0d482b992e45f6a8500f37.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/36bbd2907e0d482b992e45f6a8500f37.zip | a96e695ad4b34ec6f7ee875f05590453 |
+| 8    | my_region     | https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/6a89f6da593d42fca43c9f28664cefba.zip | https://gauss-compotacostauto-cn.allawnfs.com/remove-50e8dc4e4b2525c604f82722bd1c56ee/component-ota/22/04/12/6a89f6da593d42fca43c9f28664cefba.zip | 4009c38b09a6edd7ad90243f970ad754 |
+
+
+
 #### F.09
 
 | id   | 名称          | 链接(active-url)                                             | 链接                                                         | md5                              |
@@ -495,6 +510,18 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-b13b6a5b3015cbe3025d12d6cfc
 https://gauss-compotacostauto-cn.allawnfs.com/remove-1b42e6d0683bceedfb90e1a45ac13c09/component-ota/23/01/17/d516ee2e3b8a49479485bc1e3e88d0d0.zip
 
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1b42e6d0683bceedfb90e1a45ac13c09/component-ota/23/01/17/d516ee2e3b8a49479485bc1e3e88d0d0.zip
+
+#### H.21(正式版)
+
+下载链接
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-dbd9798f0d096374aa512cafb0cbe9f3/component-ota/23/03/06/432a0ebfa3ff4b5fa9417124a25d4224.zip
+
+
+
+### ColorOS13.1 (安卓13.0)
+
+敬请等待
 
 ## Credits
 
