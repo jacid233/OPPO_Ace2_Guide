@@ -521,7 +521,13 @@ https://gauss-componentotacostmanual-cn.allawnfs.com/remove-dbd9798f0d096374aa51
 
 ### ColorOS13.1 (安卓13.0)
 
-敬请等待
+#### H.27(2选1,区别在速度)
+
+下载链接
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-cf575d5bcef7451b15c273f3244f3c1f/component-ota/23/05/16/2deb36c85a9d4ebba3709ae99ec86973.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cf575d5bcef7451b15c273f3244f3c1f/component-ota/23/05/16/2deb36c85a9d4ebba3709ae99ec86973.zip
 
 ## Credits
 
