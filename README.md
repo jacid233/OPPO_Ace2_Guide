@@ -539,8 +539,17 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-cf575d5bcef7451b15c273f3244
 
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cf575d5bcef7451b15c273f3244f3c1f/component-ota/23/05/16/2deb36c85a9d4ebba3709ae99ec86973.zip
 
+#### H.28(2选1,区别在速度)
+
+下载链接
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-537c777b380eb1b3fda05c54b6c0124d/component-ota/23/06/16/5a3bf59f31f24382a85548227c8737be.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-537c777b380eb1b3fda05c54b6c0124d/component-ota/23/06/16/5a3bf59f31f24382a85548227c8737be.zip
+
 ## Credits
 
 * 感谢逝去的天空：提供大部分内测包
 * 花橋：分享H.15；H.19
 * 由QQ用户 2919277661 提供 H.20 的 ota.db 并提取直链
+* 不吃辣椒多放香菜：分享H.28
