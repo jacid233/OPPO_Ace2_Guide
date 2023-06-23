@@ -233,7 +233,17 @@ EMT刷机工具线刷方法是最近才有的。之所以能通过EMT来免售�
 
 继续使用findx2的
 
+### TWRP收集
 
+* ColorOS7.1 (wzsx150): https://wwfg.lanzoum.com/i8rcF09kvzta
+* ColorOS11 (残芯): https://wwfg.lanzoum.com/i9mPA0ztcggj
+
+<br/>
+
+> 注意：ColorOS12.1和ColorOS13的并没有Ace2的twrp，因为findx2的twrp能兼容Ace2，所以就去隔壁Findx2找了一份过来。
+
+* ColorOS12.1(pomelohan):https://wwfg.lanzoum.com/iqLv10tzdqze
+* ColorOS13.0/1(pomelohan):https://wwfg.lanzoum.com/iW1Xs0tzdeda
 
 ## root与vbmeta校验去除
 
