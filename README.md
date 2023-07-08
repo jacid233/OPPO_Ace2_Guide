@@ -547,6 +547,16 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-537c777b380eb1b3fda05c54b6c
 
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-537c777b380eb1b3fda05c54b6c0124d/component-ota/23/06/16/5a3bf59f31f24382a85548227c8737be.zip
 
+#### H.29
+
+下载链接
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a007d1b2eb1f6c4c97c6a3c88359db03/component-ota/23/06/27/243179fafcea433fb020f6da2dad004f.zip
+
+更新说明
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-a007d1b2eb1f6c4c97c6a3c88359db03/component-ota/23/06/28/d9f4bfb819ed45c1bce2dc96b01f91d7.html
+
 ## Credits
 
 * 感谢逝去的天空：提供大部分内测包
