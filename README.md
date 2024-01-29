@@ -566,6 +566,15 @@ https://gauss-compotacostauto-cn.allawnfs.com/remove-e62479ded0097b5eacda587ec92
 
 https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e62479ded0097b5eacda587ec92096c0/component-ota/23/08/09/829a0a40e54f426a8663ed92e92511f3.zip
 
+
+#### H.31(2选1.区别在速度)
+
+下载链接
+
+https://gauss-compotacostauto-cn.allawnfs.com/remove-1a88c71c0a9092dae0d9182b3ad342f4/component-ota/23/10/23/e9d09e2433794be296823c02f3da1a11.zip
+
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1a88c71c0a9092dae0d9182b3ad342f4/component-ota/23/10/23/e9d09e2433794be296823c02f3da1a11.zip
+
 ## Credits
 
 * 感谢逝去的天空：提供大部分内测包
